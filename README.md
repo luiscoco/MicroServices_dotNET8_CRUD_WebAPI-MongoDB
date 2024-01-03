@@ -1,5 +1,13 @@
 # How to create a .NET8 WebAPI CRUD MongoDB Microservice
 
+## 0. Prerequisites
+
+- Install Docker Desktop
+
+- Install Visual Studio 2022 Community Edition version 17.8
+
+- Install Studio 3T Free for MongoDB
+
 ## 1. Create .NET8 WebAPI in Visual Studio 2022 Community Edition
 
 
