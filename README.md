@@ -215,7 +215,6 @@ using BookStoreApi.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 ConfigurationManager Configuration = builder.Configuration;
 
 // Add services to the container.
@@ -224,10 +223,7 @@ builder.Services.Configure<BookStoreDatabaseSettings>(
 
 builder.Services.AddSingleton<BooksService>();
 
-//builder.Services.AddHttpContextAccessor();
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -269,6 +265,32 @@ In the appsettings.json file include the following code:
   "AllowedHosts": "*"
 }
 ```
+
+**Logging Configuration**:
+
+"**Logging**": This section configures the logging behavior of the application.
+
+"**LogLevel**": This subsection specifies the minimum level of events to log.
+
+"**Default**": "Information": By default, the application logs events that are at the "Information" level or higher. "Information" level typically includes general application flow events and operational information.
+
+"**Microsoft.AspNetCore**": "**Warning**": For components from the "Microsoft.AspNetCore" namespace, only "Warning" level events or higher are logged. "Warning" level logs are used for potentially harmful situations or cautionary messages.
+
+**Database Configuration for a Book Store**:
+
+"**BookStoreDatabase**": This section contains settings specific to a database used by a Book Store application.
+
+"**ConnectionString**": "mongodb://localhost:27017": Defines the connection string for the database. This particular string indicates that the application connects to a MongoDB instance running on localhost (the same machine where the application is running) and listening on port 27017.
+
+"**DatabaseName**": "**BookStore**": Specifies the name of the database within MongoDB to be used, which is "BookStore" in this case.
+
+"**BooksCollectionName**": "**Books**": Indicates the name of the collection within the "BookStore" database that will store the book data. In MongoDB, a collection is analogous to a table in a relational database.
+
+**Allowed Hosts Configuration**:
+
+"**AllowedHosts**": "*": This setting configures which hosts are allowed to send requests to the application. The asterisk (*) is a wildcard that means any host can send requests. This is an important setting for web applications, especially concerning CORS (Cross-Origin Resource Sharing) policies.
+
+Overall, this JSON file is used to configure logging, database connections, and security policies for a web application, likely built with technologies like ASP.NET Core (indicated by the Microsoft.AspNetCore logging configuration).
 
 ## 8. How to run the application
 
