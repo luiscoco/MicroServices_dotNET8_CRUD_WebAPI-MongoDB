@@ -192,11 +192,69 @@ public class BooksController : ControllerBase
 
 ## 6. Modify Program.cs file
 
+In the Program.cs file include the following code:
 
+```csharp
+using BookStoreApi.Models;
+using BookStoreApi.Services;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+ConfigurationManager Configuration = builder.Configuration;
+
+// Add services to the container.
+builder.Services.Configure<BookStoreDatabaseSettings>(
+    builder.Configuration.GetSection("BookStoreDatabase"));
+
+builder.Services.AddSingleton<BooksService>();
+
+//builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();
+```
 
 ## 7. Modify appsettings.json file
 
+In the appsettings.json file include the following code:
 
+```json
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "BookStoreDatabase": {
+    "ConnectionString": "mongodb://localhost:27017",
+    "DatabaseName": "BookStore",
+    "BooksCollectionName": "Books"
+  },
+  "AllowedHosts": "*"
+}
+```
 
 
 
