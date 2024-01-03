@@ -308,6 +308,14 @@ We connect to the MongoDB running container from 3T Studio setting the connectio
 
 ![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/c4b3e323-763b-467d-8abe-5f01418260e2)
 
+We set the connection name
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/9e6a36b0-aeb3-4a88-b526-466297751eec)
+
+And we connect to the database
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/dea5a270-256b-4f5e-93ad-96a546e61965)
+
 See the data inside the new database and collection
 
 ![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/4b031a72-e331-4e52-8f49-31b79cc68655)
