@@ -311,7 +311,7 @@ docker pull mongo
 For running the Mongodb docker image we type the command:
 
 ```
-docker run -d -p 27017:27017 --name mongodb mongo
+docker run -d -p 27017:27017 --name mongodb-container mongo
 ```
 
 To enter in the Mongodb database we type this command:
