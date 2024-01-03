@@ -266,7 +266,7 @@ In the appsettings.json file include the following code:
 
 ## 8. How to run the application
 
-### 8.1. First we need to pull and run the MondoDB database Docker container image
+### 8.1. First, we need to pull and run the MondoDB database Docker container image
 
 For pulling the MondoDB docker image from Docker hub we run these commands
 
@@ -294,7 +294,7 @@ And also we create a new database with a collections and two documents inside, s
 
 ![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/29417925-b773-4350-b2f3-e0d982ac62e1)
 
-### 8.2. Second we build and run the WebAPI application with HTTP protocol
+### 8.2. Second, we build and run the WebAPI application with HTTP protocol
 
 
 
