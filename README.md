@@ -1,5 +1,7 @@
 # How to create a .NET8 WebAPI CRUD MongoDB Microservice
 
+The code for this example is available in this github repo: https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB_deployed_to_Docker_DeskTop
+
 ## 0. Prerequisites
 
 - Install Docker Desktop
@@ -309,7 +311,7 @@ docker pull mongo
 For running the Mongodb docker image we type the command:
 
 ```
-
+docker run -d -p 27017:27017 --name mongodb mongo
 ```
 
 To enter in the Mongodb database we type this command:
