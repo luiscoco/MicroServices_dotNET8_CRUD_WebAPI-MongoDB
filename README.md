@@ -294,11 +294,7 @@ And also we create a new database with a collections and two documents inside, s
 
 ![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/29417925-b773-4350-b2f3-e0d982ac62e1)
 
-### 8.2. Second, we build and run the WebAPI application with HTTP protocol
-
-
-
-### 8.3. Third, we verify the data with 3T Studio Free for MongoDb
+### 8.2. Second, we verify the data with 3T Studio Free for MongoDb
 
 We connect to the MongoDB running container from 3T Studio setting the connection string: **mongodb://localhost:27017**
 
@@ -319,5 +315,8 @@ And we connect to the database
 See the data inside the new database and collection
 
 ![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/4b031a72-e331-4e52-8f49-31b79cc68655)
+
+### 8.2. Third, we build and run the WebAPI application with HTTP protocol
+
 
 
