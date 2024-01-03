@@ -316,7 +316,10 @@ See the data inside the new database and collection
 
 ![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/4b031a72-e331-4e52-8f49-31b79cc68655)
 
-### 8.2. Third, we build and run the WebAPI application with HTTP protocol
+### 8.3. Third, we build and run the WebAPI application with HTTP protocol
 
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/89b68958-2bec-4a2e-a813-1bcaa3f30df2)
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/ce563ef0-2236-4cb8-a119-43b6bafe277c)
 
 
