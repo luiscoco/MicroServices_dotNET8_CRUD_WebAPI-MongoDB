@@ -10,7 +10,13 @@
 
 ## 1. Create .NET8 WebAPI in Visual Studio 2022 Community Edition
 
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/a8457769-9718-4954-9d14-6a3950cf8b53)
 
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/dec4d20a-1283-4093-98b4-b42e07732742)
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/34e18f05-54ae-42c3-bf08-e95cf2796537)
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/719673cc-23c0-4f7a-a037-689b04eb5685)
 
 ## 2. Add the MongoDB.Driver dependency
 
