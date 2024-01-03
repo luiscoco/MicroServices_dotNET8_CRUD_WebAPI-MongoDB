@@ -298,4 +298,18 @@ And also we create a new database with a collections and two documents inside, s
 
 
 
+### 8.3. Third, we verify the data with 3T Studio Free for MongoDb
+
+We connect to the MongoDB running container from 3T Studio setting the connection string: **mongodb://localhost:27017**
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/2fe753e7-66e4-461b-96fb-824c46a9e032)
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/729fbbef-5c62-4ced-8026-86119d45bfd9)
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/c4b3e323-763b-467d-8abe-5f01418260e2)
+
+See the data inside the new database and collection
+
+![image](https://github.com/luiscoco/MicroServices_dotNET8_CRUD_WebAPI-MongoDB/assets/32194879/4b031a72-e331-4e52-8f49-31b79cc68655)
+
 
